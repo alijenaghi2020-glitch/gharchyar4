@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="آموزشگاه آنلاین قارچ‌یار؛ دوره جامع پرورش قارچ دکمه‌ای، مدیریت سالن، محاسبه هزینه و عیب‌یابی">
+<title>قارچ‌یار | آموزشگاه تخصصی پرورش قارچ دکمه‌ای</title>
+<style>
+:root{--forest:#173d31;--green:#28634b;--leaf:#4e8a67;--cream:#f5f4ed;--paper:#fff;--ink:#24332c;--muted:#69766e;--line:#e4e9e2;--gold:#e5b85c;--soft:#eaf2eb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Tahoma,"Segoe UI",sans-serif;line-height:1.9}a{color:inherit;text-decoration:none}button,input{font:inherit}.container{max-width:1160px;margin:auto;padding:0 22px}
+header{background:var(--forest);color:#fff}.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0;gap:18px;flex-wrap:wrap}.logo{font-size:1.45rem;font-weight:900}.logo span{color:var(--gold)}nav{display:flex;gap:17px;flex-wrap:wrap;color:#dce9df;font-size:.9rem}nav a:hover{color:var(--gold)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:48px 0 78px}.kicker{color:var(--gold);font-weight:bold}.hero h1{font-size:clamp(2.1rem,5vw,3.8rem);line-height:1.35;margin:12px 0}.hero p{color:#dce9df;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:12px;padding:12px 19px;background:var(--gold);color:#24352c;font-weight:bold;cursor:pointer;display:inline-block}.btn.ghost{background:#ffffff16;color:white;border:1px solid #ffffff4a}.hero-visual{border:1px solid #ffffff30;border-radius:25px;padding:24px;background:linear-gradient(145deg,#ffffff16,#ffffff08)}.mushrooms{height:210px;border-radius:17px;background:linear-gradient(#d8e7d9aa,#234a39aa),url('https://images.unsplash.com/photo-1504545102780-26774c1bb073?auto=format&fit=crop&w=1000&q=85') center/cover;display:flex;align-items:end;padding:18px}.mushrooms span{background:#173d31d9;color:#fff;padding:7px 12px;border-radius:10px}
+main{padding:34px 0 70px}.notice{background:white;border:1px solid var(--line);padding:18px 22px;border-radius:17px;margin-top:-55px;position:relative;box-shadow:0 10px 30px #1a352414}.section{margin:52px 0}.section-title{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:20px}.section h2{color:var(--green);font-size:1.8rem;margin:0}.section-title p{color:var(--muted);margin:0;max-width:570px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:20px}.card h3{color:var(--green);margin:8px 0}.tag{display:inline-block;border-radius:30px;padding:3px 10px;background:var(--soft);color:var(--green);font-size:.8rem}.iconbox{width:42px;height:42px;background:var(--soft);border-radius:13px;display:grid;place-items:center;font-size:1.25rem}
+.course{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.lesson{display:flex;gap:15px;background:white;border:1px solid var(--line);border-radius:16px;padding:17px}.lesson .n{background:var(--soft);color:var(--green);font-weight:bold;width:38px;height:38px;flex:0 0 38px;border-radius:12px;display:grid;place-items:center}.lesson h3{margin:0;color:var(--green);font-size:1rem}.lesson p{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:22px}.panel h3{margin-top:0;color:var(--green)}label{display:block;font-weight:bold;margin:12px 0 5px}input[type=number]{width:100%;padding:11px;border:1px solid #ccd7ce;border-radius:10px;background:#fff;color:var(--ink)}.result{background:var(--soft);border-radius:14px;padding:15px;margin-top:15px}.result strong{font-size:1.5rem;color:var(--green)}.hint{font-size:.83rem;color:var(--muted)}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:15px;overflow:hidden}th,td{text-align:right;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--soft);color:var(--green)}tr:last-child td{border:0}
+details{background:white;border:1px solid var(--line);border-radius:13px;padding:14px 17px;margin:10px 0}summary{cursor:pointer;color:var(--green);font-weight:bold}
+.checks label{display:flex;align-items:flex-start;gap:9px;border-bottom:1px solid var(--line);padding:8px 0;font-weight:normal}.checks input{margin-top:8px;accent-color:var(--green)}
+footer{background:var(--forest);color:#dce9df;padding:32px 0;text-align:center}.disclaimer{font-size:.86rem;color:var(--muted)}
+@media(max-width:780px){.hero,.split{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.course{grid-template-columns:1fr}.section-title{display:block}.top{align-items:flex-start}.hero{padding-top:30px}}
+</style>
+</head>
+<body>
+<header><div class="container">
+ <div class="top"><a class="logo" href="#">قارچ<span>‌یار</span></a><nav><a href="#academy">آموزشگاه</a><a href="#course">سرفصل دوره</a><a href="#calculator">محاسبه‌گر</a><a href="#climate">اقلیم سالن</a><a href="#faq">سؤالات</a></nav></div>
+ <div class="hero"><div><div class="kicker">آموزشگاه آنلاین تخصصی قارچ</div><h1>از اولین قدم تا مدیریت یک سالن حرفه‌ای</h1><p>مسیر یادگیری پرورش قارچ دکمه‌ای را اصولی طی کنید؛ با آموزش مرحله‌ای، شناخت تجهیزات، کنترل شرایط سالن، محاسبه اولیه هزینه و راهنمای عیب‌یابی.</p><div class="actions"><a class="btn" href="#course">مشاهده مسیر یادگیری</a><a class="btn ghost" href="#calculator">محاسبه ظرفیت سالن</a></div></div>
+ <div class="hero-visual"><div class="mushrooms"><span>راهنمای جامع Agaricus bisporus</span></div><p>آموزش کاربردی برای هنرجویان، کارآفرینان و تولیدکنندگان قارچ خوراکی</p></div></div>
+</div></header>
+<main class="container">
+ <div class="notice"><b>به قارچ‌یار خوش آمدید.</b> این نسخه، نمونه اولیه یک آموزشگاه آنلاین است. محاسبه‌گر برای برآورد اولیه طراحی شده و جایگزین پیش‌فاکتور تجهیزات، قیمت روز کمپوست یا طرح توجیهی تخصصی نیست.</div>
+ <section class="section" id="academy"><div class="section-title"><h2>در این آموزشگاه چه یاد می‌گیرید؟</h2><p>محتوای دوره از شناخت مواد اولیه شروع می‌شود و تا برداشت، بسته‌بندی و فروش ادامه پیدا می‌کند.</p></div>
+ <div class="cards">
+  <article class="card"><div class="iconbox">🌱</div><span class="tag">مقدماتی</span><h3>شناخت قارچ و مواد اولیه</h3><p>چرخه زیستی قارچ دکمه‌ای، اسپان، کمپوست فاز ۲ و ۳، خاک پوششی و معیارهای انتخاب تأمین‌کننده.</p></article>
+  <article class="card"><div class="iconbox">🏠</div><span class="tag">طراحی سالن</span><h3>ساخت و تجهیز سالن</h3><p>عایق‌کاری، قفسه‌بندی، کف‌شور، تهویه، سرمایش، گرمایش، رطوبت‌ساز و ابزارهای اندازه‌گیری.</p></article>
+  <article class="card"><div class="iconbox">🌡️</div><span class="tag">مدیریت تولید</span><h3>کنترل اقلیم و رشد</h3><p>ریسه‌دوانی، خاک‌دهی، شوک‌دهی، پین‌دهی، تنظیم هوای تازه، CO₂ و مدیریت رطوبت.</p></article>
+  <article class="card"><div class="iconbox">🧺</div><span class="tag">برداشت</span><h3>برداشت و پس از برداشت</h3><p>تشخیص زمان مناسب، برداشت تمیز، درجه‌بندی، سردکردن، بسته‌بندی و حفظ زنجیره سرد.</p></article>
+  <article class="card"><div class="iconbox">🔎</div><span class="tag">عیب‌یابی</span><h3>آفات، بیماری‌ها و خطاها</h3><p>شناخت علائم آلودگی، پیشگیری بهداشتی، پایش سالن و مدیریت ضایعات به شکل ایمن.</p></article>
+  <article class="card"><div class="iconbox">📈</div><span class="tag">کسب‌وکار</span><h3>هزینه، فروش و توسعه</h3><p>برآورد هزینه‌های جاری و سرمایه‌ای، ظرفیت‌سنجی، بازار هدف و محاسبه نقطه سربه‌سر.</p></article>
+ </div></section>
+ <section class="section" id="course"><div class="section-title"><h2>مسیر جامع یادگیری</h2><p>سرفصل پیشنهادی دوره؛ هر فصل می‌تواند به درس، ویدئو، فایل تمرین و آزمون مستقل تبدیل شود.</p></div>
+ <div class="course">
+  <div class="lesson"><div class="n">۱</div><div><h3>مبانی پرورش قارچ دکمه‌ای</h3><p>زیست‌شناسی قارچ، چرخه رشد، شرایط اقتصادی و انتخاب مقیاس تولید.</p></div></div>
+  <div class="lesson"><div class="n">۲</div><div><h3>کمپوست، اسپان و خاک پوششی</h3><p>ویژگی مواد اولیه، فازهای کمپوست، کنترل کیفیت و دریافت محصول.</p></div></div>
+  <div class="lesson"><div class="n">۳</div><div><h3>طراحی سالن و نقشه تجهیزات</h3><p>فضای مفید، قفسه‌ها، عایق، مسیر هوا، برق، آب و تخلیه رطوبت.</p></div></div>
+  <div class="lesson"><div class="n">۴</div><div><h3>بهداشت و آماده‌سازی سالن</h3><p>شست‌وشو، ضدعفونی مجاز، کنترل آفات و ایمنی کارکنان.</p></div></div>
+  <div class="lesson"><div class="n">۵</div><div><h3>بارگیری و ریسه‌دوانی</h3><p>مدیریت کمپوست، دمای مغز بستر و ثبت داده‌های روزانه.</p></div></div>
+  <div class="lesson"><div class="n">۶</div><div><h3>خاک‌دهی و مراقبت از خاک</h3><p>آماده‌سازی خاک پوششی، یکنواختی، آبیاری و نفوذ میسلیوم.</p></div></div>
+  <div class="lesson"><div class="n">۷</div><div><h3>شوک‌دهی و تشکیل پین</h3><p>کاهش تدریجی دما، هوای تازه، CO₂ و مدیریت تشکیل پین‌ها.</p></div></div>
+  <div class="lesson"><div class="n">۸</div><div><h3>فلش‌ها و برداشت اصولی</h3><p>مدیریت موج‌های برداشت، کیفیت محصول، پاک‌سازی و ثبت عملکرد.</p></div></div>
+  <div class="lesson"><div class="n">۹</div><div><h3>بسته‌بندی و فروش</h3><p>سردکردن، بسته‌بندی بهداشتی، حمل، مشتری‌یابی و قیمت‌گذاری.</p></div></div>
+  <div class="lesson"><div class="n">۱۰</div><div><h3>مدیریت اقتصادی واحد تولیدی</h3><p>هزینه ثابت و متغیر، راندمان واقعی، نقطه سربه‌سر و توسعه ظرفیت.</p></div></div>
+ </div></section>
+ <section class="section" id="calculator"><div class="section-title"><h2>محاسبه‌گر اولیه ظرفیت و هزینه</h2><p>مقادیر را وارد کنید تا برآورد ساده‌ای از هزینه یک دوره و فروش احتمالی داشته باشید.</p></div>
+ <div class="split"><div class="panel"><h3>اطلاعات تولید</h3>
+  <label for="compost">مقدار کمپوست (کیلوگرم)</label><input id="compost" type="number" min="0" value="5000">
+  <label for="yield">عملکرد قابل فروش به ازای هر کیلو کمپوست (کیلوگرم)</label><input id="yield" type="number" min="0" step=".01" value=".22">
+  <label for="price">قیمت فروش هر کیلو محصول (واحد پولی دلخواه)</label><input id="price" type="number" min="0" value="120">
+  <label for="cost">هزینه کل یک دوره (همان واحد پولی)</label><input id="cost" type="number" min="0" value="85000">
+  <p class="hint">اعداد نمونه‌اند؛ قیمت‌ها و عملکرد را با داده‌های واقعی منطقه خود جایگزین کنید.</p>
+ </div><div class="panel"><h3>نتیجه برآورد</h3><div class="result">محصول قابل فروش تقریبی<br><strong id="output">1,100</strong> کیلوگرم</div><div class="result">درآمد ناخالص تخمینی<br><strong id="revenue">132,000</strong></div><div class="result">سود/زیان ساده پیش از مالیات و هزینه‌های لحاظ‌نشده<br><strong id="profit">47,000</strong></div><p class="hint">این خروجی تضمین سود نیست. ضایعات، افت کیفیت، استهلاک، مالیات، خواب سرمایه و نوسان بازار ممکن است نتیجه را تغییر دهند.</p></div></div></section>
+ <section class="section" id="climate"><div class="section-title"><h2>جدول راهنمای اقلیم سالن</h2><p>بازه‌های آموزشی تقریبی؛ برنامه نهایی تابع کمپوست، سویه، سالن و نظر کارشناس فنی است.</p></div>
+ <table><thead><tr><th>مرحله</th><th>دمای هوای تقریبی</th><th>رطوبت نسبی تقریبی</th><th>نکته</th></tr></thead><tbody>
+ <tr><td>ریسه‌دوانی در کمپوست</td><td>۲۴ تا ۲۵ درجه</td><td>طبق شرایط بستر و سالن</td><td>دمای مغز کمپوست را نیز پایش کنید.</td></tr>
+ <tr><td>پس از خاک‌دهی</td><td>۲۲ تا ۲۴ درجه</td><td>۹۰ تا ۹۵٪</td><td>خاک مرطوب باشد، نه اشباع.</td></tr>
+ <tr><td>تحریک باردهی</td><td>کاهش تدریجی تا ۱۶ تا ۱۸ درجه</td><td>۸۵ تا ۹۰٪</td><td>هوای تازه و CO₂ اهمیت دارند.</td></tr>
+ <tr><td>رشد و برداشت</td><td>اغلب ۱۶ تا ۱۸ درجه</td><td>۸۵ تا ۹۰٪</td><td>بر اساس کیفیت قارچ و سرعت رشد تنظیم شود.</td></tr>
+ </tbody></table></section>
+ <section class="section"><div class="section-title"><h2>چک‌لیست راه‌اندازی</h2><p>پیش از ورود کمپوست، آمادگی سالن را بررسی کنید.</p></div><div class="panel checks">
+ <label><input type="checkbox"> بازار فروش و ظرفیت اقتصادی بررسی شده است.</label><label><input type="checkbox"> کمپوست و اسپان از تأمین‌کننده معتبر تهیه می‌شوند.</label><label><input type="checkbox"> سطوح سالن قابل شست‌وشو و کف‌شور آماده است.</label><label><input type="checkbox"> سرمایش، گرمایش، رطوبت‌ساز و تهویه آزمایش شده‌اند.</label><label><input type="checkbox"> سنسورهای دما، رطوبت و CO₂ بررسی شده‌اند.</label><label><input type="checkbox"> برنامه بهداشت، کنترل آفات و دفع ضایعات وجود دارد.</label><label><input type="checkbox"> سردخانه، بسته‌بندی و حمل محصول مشخص شده است.</label>
+ </div></section>
+ <section class="section" id="faq"><div class="section-title"><h2>سؤالات پرتکرار</h2></div>
+ <details><summary>برای شروع بهتر است چه ظرفیتی انتخاب کنم؟</summary><p>ظرفیت را بر اساس تجربه، سرمایه، امکانات کنترل اقلیم و بازار فروش تعیین کنید. بهتر است قبل از توسعه، یک دوره آزمایشی با ظرفیت قابل مدیریت اجرا و داده‌های واقعی ثبت شود.</p></details>
+ <details><summary>آیا این محاسبه‌گر سود دقیق را نشان می‌دهد؟</summary><p>خیر؛ فقط یک مدل ساده درآمد منهای هزینه واردشده است. برای طرح مالی واقعی باید قیمت روز نهاده‌ها، انرژی، نیروی انسانی، استهلاک، ضایعات، مالیات و شرایط فروش محاسبه شوند.</p></details>
+ <details><summary>آیا می‌توان کمپوست را در محل تولید کرد؟</summary><p>بله، اما تولید کمپوست فرایندی تخصصی و سرمایه‌بر است و به مدیریت تخمیر، پاستوریزاسیون، آمونیاک، تهویه و پساب نیاز دارد. تازه‌کارها معمولاً با کمپوست آماده شروع می‌کنند.</p></details>
+ <details><summary>برای انتشار عمومی سایت چه چیزی لازم است؟</summary><p>برای انتشار باید دامنه و فضای میزبانی تهیه شود، فایل سایت بارگذاری شود و اطلاعات تماس، سیاست حریم خصوصی، منابع آموزشی و محتوای اختصاصی تکمیل شوند.</p></details>
+ </section>
+ <p class="disclaimer">محتوای این سایت آموزشی است و جایگزین آموزش عملی، دستورالعمل تولیدکننده کمپوست، مقررات بهداشت مواد غذایی یا مشاوره تخصصی محلی نیست. مواد ضدعفونی‌کننده را فقط طبق برچسب و مقررات مصرف کنید و هرگز مواد شیمیایی را با هم مخلوط نکنید.</p>
+</main>
+<footer><div class="container"><b>قارچ‌یار | آموزشگاه تخصصی پرورش قارچ</b><br>یادگیری اصولی · تولید بهداشتی · توسعه پایدار</div></footer>
+<script>
+const ids=['compost','yield','price','cost'];
+function calc(){const c=Math.max(0,Number(document.getElementById('compost').value)||0),y=Math.max(0,Number(document.getElementById('yield').value)||0),p=Math.max(0,Number(document.getElementById('price').value)||0),k=Math.max(0,Number(document.getElementById('cost').value)||0);const q=c*y,r=q*p,profit=r-k;const f=n=>n.toLocaleString('en-US',{maximumFractionDigits:2});document.getElementById('output').textContent=f(q);document.getElementById('revenue').textContent=f(r);document.getElementById('profit').textContent=f(profit);}
+ids.forEach(id=>document.getElementById(id).addEventListener('input',calc));calc();
+</script>
+</body></html>
